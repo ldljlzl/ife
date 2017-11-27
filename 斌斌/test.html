@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#box{
+			width: 100px;
+			background-color: blue;
+			height: 100px;
+		}
+		input{
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div id="box">
+		<input type="button" value="按钮1" id="btn1">
+		<input type="button" value="按钮2" id="btn2">
+	</div>
+	<script type="text/javascript">
+	function ShowElem(elem){
+		elem.stopPropagation();
+		this.style.backgroundColor="green";
+		
+	}
+		var btn1=document.getElementById("btn1");
+		var box=document.getElementById("box");
+		// btn1.stopPropagation();
+		btn1.addEventListener('click',ShowElem,false);
+		box.addEventListener('click',ShowElem,false);
+		
+	</script>
+</body>
+</html>

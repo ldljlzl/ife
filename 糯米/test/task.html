@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿豆瓣音乐播放器</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="task.css">
+</head>
+<body>
+	<div id="top">
+		<div id="doubanMusician">豆瓣音乐人</div>
+		<div id="myCollect">
+		<span>☆</span>我的收藏
+		</div>
+	</div>
+	<div id="main">
+		<div>
+
+			<div id="list">
+				<div id="listTop">
+					<div id="num">正在播放</div>
+					<div id="clearAll">清空全部</div>
+				</div>
+				<div class="item">
+					<div class="flagCollect">☆</div>
+					<div class="songName">流浪记</div>
+					<div class="singer">杨宗纬</div>
+					<div class="share"><img src="imgs/share.jpg"></div>
+					<div class="delate">×</div>
+				</div>
+				<div class="item">
+					<div class="flagCollect">☆</div>
+					<div class="songName">童话镇</div>
+					<div class="singer">陈一发儿</div>
+					<div class="share"><img src="imgs/share.jpg"></div>
+					<div class="delate">×</div>
+				</div>		
+			</div>
+
+			<div id="label">
+				<div id="singerImg">
+					<img src="imgs/杨宗纬.jpg" class="imgSinger">
+				</div>			
+				<div id="singerName">杨宗纬</div>
+				<div id="lrc">查看歌词</div>
+			</div>
+
+			<div id="audioDiv">
+				<audio id="media" src="Just A Kiss.mp3"></audio>
+				<!--start audio-->
+				<div class="pregrass">
+					<div id="pregrassbg">
+						<div id="pregrasscolor"></div>
+					</div>
+					<span id="playTime">0:00</span>
+					<span id="surplusTime">-0:00</span>
+				</div>
+
+				<div class="controls">
+					<span id="play" class="on"></span>
+				</div>
+			</div>
+	</div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="task.js"></script>
+</body>
+</html>

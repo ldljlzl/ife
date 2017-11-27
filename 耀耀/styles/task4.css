@@ -1,0 +1,59 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#text{
+	position: absolute;
+	top: 372px;
+	left: 32px;
+	height: 32px;
+}
+#btn{
+	position: absolute;
+	top: 372px;
+	left: 220px;
+	height: 32px;
+	font-size: 26px;
+}
+#main{
+	height: 320px;
+	width: 320px;
+	border:2px solid black;
+	position: relative;
+	left: 32px;
+	top: -320px;
+}
+#topDiv{
+	display: flex;
+	position: relative;
+	left: 32px;
+}
+#topDiv div{
+	height: 32px;
+	width: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#leftDiv div{
+	height: 32px;
+	width: 32px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.third{
+	border:1px solid #D8D4D4;
+	height: 30px;
+	width: 30px;
+	float: left;
+	display: inline;
+}
+img{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 163px;
+	top: 163px;	
+}

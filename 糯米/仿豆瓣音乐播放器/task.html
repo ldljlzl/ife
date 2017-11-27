@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>仿豆瓣音乐播放器</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="task.css">
+</head>
+<body>
+	<div id="top">
+		<div id="doubanMusician" >豆瓣音乐人</div>
+		<div id="myCollect">
+			<span>☆</span>我的收藏
+		</div>
+	</div>
+	<div id="main">
+		<div>
+			<div id="list">
+				<div id="listTop">
+					<div id="num" >正在播放</div>
+					<div id="clearAll" >清空全部</div>
+				</div>
+				<div class="item">
+					<div class="flagCollect"><span>☆</span></div>
+					<div class="songName" >流浪记</div>
+					<div class="singer">杨宗纬</div>
+					<div class="share"><img src="imgs/share.jpg"></div>
+					<div class="delate"><span>×</span></div>
+				</div>
+				<div class="item" >
+					<div class="flagCollect"><span>☆</span></div>
+					<div class="songName" >童话镇</div>
+					<div class="singer">陈一发儿</div>
+					<div class="share"><img src="imgs/share.jpg"></div>
+					<div class="delate"><span>×</span></div>
+				</div>		
+			</div>
+
+			<div id="label">
+				<div id="singerImg">
+					<img src="imgs/杨宗纬.jpg" class="imgSinger">
+				</div>			
+				<div id="singerName">杨宗纬</div>
+				<div id="lrc">查看歌词</div>
+			</div>
+
+			<div id="audioDiv">
+				<audio id="audio" >
+					Your browser does not support the <code>audio</code> element.
+					<source  id="source" type="audio/mp3" >
+					</audio>
+				</div>
+			</div>		
+		</div>
+		<div id="controls">
+			<div >
+				<div id="control0">
+					<div id="timeShow">
+						<div id="song"></div>
+						<div id="time"></div>
+					</div>
+					<div id="process">
+						<div id="processAll"></div>
+						<div id="processBuffer"></div>
+						<div id="processNow"></div>
+						<div id="circleIcon"></div>
+					</div>
+					
+				</div>
+				<div id="control1">
+					<div id="mode"><img src="imgs/图标/循环播放.jpg"></div>
+					<div ><img src="imgs/图标/音量.jpg" id="sound"></div>
+					<div id="volume"></div>
+				</div>
+				<div id="control2">
+					<div id="last"><img src="imgs/图标/上一首.png"></div>
+					<div id="play"><img src="imgs/图标/播放.png" class="play"></div>
+					<div id="next"><img src="imgs/图标/下一首.png"></div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+		<script type="text/javascript" src="task.js"></script>
+	</body>
+</html>

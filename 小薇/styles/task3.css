@@ -1,0 +1,55 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid black;
+}
+div{
+	padding: 20px;
+	border: 1px solid black;
+}
+#main{
+	margin: 20px;
+	background-color: #eee;
+	overflow: hidden;
+	min-width: 460px;
+}
+
+#left,#middle,#right{
+	background-color: white;
+}
+#left{
+	/*vertical-align: top;*/
+	/*display: inline-block;*/
+	width: 200px;
+	float: left;/*若不添加浮动，则需要设置vertical-align和display*/
+	margin-right: 20px;
+}
+#left>img{
+	margin-right: 20px;
+	float: left;/*vertical-align: top;这里也可以不浮动*/
+}
+
+#middle{
+	/*vertical-align: top;*/
+	/*display: inline-block;*/
+	float: left;/*若不添加浮动，则需要设置vertical-align和display*/
+	width: calc(100% - 200px - 120px - 40px);
+}
+#right{
+	/*vertical-align: top;*/
+	/*display: inline-block;*/
+	width: 120px;/*若不添加浮动，则需要设置vertical-align和display*/
+	float: right;
+}
+#right>img{
+	margin-bottom: 20px;
+}
+#right #endImg{
+	margin-bottom: 0px;
+}
+

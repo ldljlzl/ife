@@ -1,0 +1,25 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+#box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+}
+#main{
+	background-color: #CB6E6E;
+	height:320px;
+	width: 320px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.line{
+	display: flex;
+}
+.line div{
+	width: 40px;
+	height: 40px;
+	background-color: #C4BDBD;
+}

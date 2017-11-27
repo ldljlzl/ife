@@ -1,0 +1,3 @@
+1.task4
+
+pushNumLeft（）函数中，除了添加元素外还可以直接用innerHTML

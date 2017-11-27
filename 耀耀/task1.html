@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task1</title>
+	<meta charset="utf-8">
+	<style type="text/css" >
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		div{
+			position: relative;
+			left: 200px;
+			top:200px;
+		}
+		#text{
+			width: 150px;
+			height: 30px;
+			margin: 20px;
+		}
+		#btn{
+			font-weight: bold;
+			font-size: 25px;
+			height: 45px;
+			background-color: blue;
+			color:white;
+			padding: 5px;
+		}
+		span{
+			font-weight: 900;
+			font-size: 25px;
+		}
+		p{
+			position: relative;
+			left: 76px;
+			color: #9A9898;
+		}
+	</style>
+</head>
+<body>
+	<div>	
+		<span>名称</span>
+		<input type="text" id="text" >
+		<input type="button" id="btn" value="验证"><br>
+		<p>必填，长度为4~16个字符</p>
+	</div>
+	<script type="text/javascript">
+		var text=document.getElementById("text").value;
+		
+	</script>
+</body>
+</html>

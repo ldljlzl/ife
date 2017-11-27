@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#float{
+	position: fixed;
+	background-color: white;
+	top: 200px;
+	left: 700px;
+	border:2px solid black;	
+	width: 450px;
+	height: 300px;
+	float: left;
+}
+#title{
+	background-color: #B9B4B4;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px;
+	height: 30px;
+}
+#white{
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	height: 230px;
+}
+#white div{
+	align-self: flex-end;
+}
+#float input{
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color:  #B9B4B4;
+	height: 40px;
+	width: 120px;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>task1</title>
+	<link rel="stylesheet" type="text/css" href="styles/task1.css">
+</head>
+<body>
+	<div id="webPanel">
+		<img src="F:\学习\html\ife\images\baidu_logo.jpg" id="baidu_logo">
+		<ul>
+			<li><a href="www.baidu.com" id="a4">导航链接四</a></li>
+			<li><a href="www.baidu.com">导航链接三</a></li>
+			<li><a href="www.baidu.com">导航链接二</a></li>
+			<li><a href="www.baidu.com" >导航链接一</a></li>
+		</ul>
+	</div>
+	
+	<div id="div1">
+		<h2>文章一级标题</h2>
+		<h3>文章二级标题</h3>
+		<p class="authorAndTime">文章作者    文章发表时间</p>
+		<p>这是一个很长很长的段落这是一个一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落,换行了<br>
+			这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段<a href="http://ife.baidu.com">这里有一个链接到</a>落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落<br><br>
+			<img src="images/F22.jpg"><br><br>
+			&nbsp这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长很长的段落这是一个很长的段落这是一个<span class="bold">很长很长</span>的段落这是一个很长很长的段落这是一个很长很长的段落
+		</div>
+
+		<div id="div2">
+			<h2>另一篇文章一级标题</h2>
+			<h3>另一篇文章二级标题</h3>
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+			</ul>
+		</div>
+		<div id="div3">
+			<h2>图片</h2>
+			<div class="imageGallery">
+				<div class="textIndent">
+					<p class="lzl">好看的图片</p>
+					<img src="images/F22.jpg" class="lzl1">
+				</div>
+				<div class="textIndent">
+					<p>好看的图片</p>
+					<img src="images/F22.jpg">
+				</div>
+				<div class="textIndent">
+					<p>好看的图片</p>
+					<img src="images/F22.jpg">
+				</div>
+			</div>
+		</div>	
+		
+
+
+		<div id="div4">
+			<h2>最后一篇文章一级标题</h2>
+			<h3>最后一篇文章二级标题</h3>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格</p>
+			<table border="1">
+				<tr class="head">
+					<th>表头</th>
+					<th>表头</th>
+					<th>表头</th>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="www.baidu.com">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="www.baidu.com">操作</a></td>
+				</tr>
+				<tr class="end">
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</table>
+		</div>		
+		<div id="div5">
+			<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+			<div id="email">
+				<label class="tag">请输入邮箱地址</label> 
+				<input type="text" name="textInput" value="这是一个文本输入框" class="align">
+				<p class="hint align">邮箱地址请按要求格式输入</p>
+			</div>
+			<div>
+				<label class="tag">请输入密码</label>			
+				<input class="align" type="password" name="textInput" value="这是一个文本输入框"><br>
+				<label class="tag">请重复输入密码</label>
+				<input class="align" type="password" name="textInput" value="这是一个文本输入框">
+				<p class="hint align">密码为6-16位</p>
+			</div>	
+			<div>
+				<label class="tag">性别</label>
+				<p class="align">
+					<input type="radio" name="sex" value="male">
+					<label>男</label>
+					<input type="radio" name="sex" value="female">
+					<label>女</label>
+				</p>				
+			</div>
+			<div>
+				<label class="tag">城市</label>
+				<select class="align">
+					<option value="北京">北京</option>
+					<option value="上海">上海</option>
+					<option value="深圳">深圳</option>
+				</select>
+			</div>			
+			<div>
+				<label class="tag">爱好</label>
+				<p class="align">
+					<input type="checkbox" name="运动"><label>运动</label>
+					<input type="checkbox" name="艺术"><label>艺术</label>
+					<input type="checkbox" name="科学"><label>科学</label>
+				</p>	
+			</div>			
+			<div>
+				<label class="tag">个人描述</label>
+				<textarea class="align" rows="8" cols="100">多行输入框</textarea>
+			</div>
+			<input type="submit" name="确认提交" value="确认提交" id="submit">	
+		</div>
+	</body>
+	</html>
